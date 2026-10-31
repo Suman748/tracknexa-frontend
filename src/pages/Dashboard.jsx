@@ -179,7 +179,7 @@ export default function Dashboard() {
           </div>
           <div className="h-[60vh] lg:h-[calc(100vh-10rem)] rounded-xl overflow-hidden">
             <MapContainer center={pos || [20.5937, 78.9629]} zoom={pos ? 16 : 5} className="h-full w-full">
-              <TileLayer attribution='&copy; OpenStreetMap &copy; CARTO' url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" />
+              <TileLayer attribution='&copy; OpenStreetMap &copy; CARTO' url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" />
               {tr?.path?.length > 1 && <Polyline positions={tr.path} pathOptions={{ color: "#4d94ff", weight: 4 }} />}
               {pos && <Marker position={pos} icon={dot} />}
               <Follow pos={pos} />
