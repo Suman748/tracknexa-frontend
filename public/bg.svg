@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg" cx="70%" cy="30%" r="90%">
+      <stop offset="0" stop-color="#10306a"/>
+      <stop offset="0.5" stop-color="#071329"/>
+      <stop offset="1" stop-color="#030712"/>
+    </radialGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#2d7bff" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#4d90ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#4d90ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+
+  <g fill="none" stroke="#4d90ff" stroke-opacity="0.35" stroke-width="3" stroke-dasharray="14 12" stroke-linecap="round">
+    <path d="M120 900 C 420 700, 560 820, 820 560 S 1240 380, 1500 260 S 1760 180, 1840 120"/>
+    <path d="M200 200 C 460 320, 620 180, 900 400 S 1300 700, 1600 820"/>
+    <path d="M60 520 C 360 480, 700 640, 1020 760 S 1500 960, 1860 900"/>
+  </g>
+
+  <g>
+    <circle cx="820" cy="560" r="70" fill="url(#glow)"/>
+    <circle cx="820" cy="560" r="8" fill="#6aa5ff"/>
+    <circle cx="820" cy="560" r="20" fill="none" stroke="#6aa5ff" stroke-opacity="0.5" stroke-width="2"/>
+
+    <circle cx="1500" cy="260" r="80" fill="url(#glow)"/>
+    <circle cx="1500" cy="260" r="9" fill="#6aa5ff"/>
+    <circle cx="1500" cy="260" r="24" fill="none" stroke="#6aa5ff" stroke-opacity="0.5" stroke-width="2"/>
+
+    <circle cx="900" cy="400" r="60" fill="url(#glow)"/>
+    <circle cx="900" cy="400" r="7" fill="#6aa5ff"/>
+
+    <circle cx="1600" cy="820" r="70" fill="url(#glow)"/>
+    <circle cx="1600" cy="820" r="8" fill="#6aa5ff"/>
+    <circle cx="1600" cy="820" r="20" fill="none" stroke="#6aa5ff" stroke-opacity="0.5" stroke-width="2"/>
+
+    <circle cx="200" cy="200" r="50" fill="url(#glow)"/>
+    <circle cx="200" cy="200" r="6" fill="#6aa5ff"/>
+
+    <circle cx="1020" cy="760" r="55" fill="url(#glow)"/>
+    <circle cx="1020" cy="760" r="7" fill="#6aa5ff"/>
+  </g>
+</svg>

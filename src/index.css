@@ -5,3 +5,14 @@
 html { scroll-behavior: smooth; }
 body { @apply bg-navy-950 text-slate-200 font-sans antialiased; }
 .glass { @apply bg-white/5 backdrop-blur-md border border-white/10; }
+html, body, #root { min-height: 100%; }
+
+body {
+  margin: 0;
+  background-color: #030712;
+  background-image: url("/bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
